@@ -89,6 +89,7 @@ body {
 }
 
 .main .left .menu li {
+    max-width: 100%;
     padding: 10px 5px;
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -102,6 +103,8 @@ body {
 }
 
 .main .left .menu li a {
+    display: block;
+    max-width: 100%;
     font-size: 1.2rem;
     font-weight: 900;
     text-decoration: none;
